@@ -29,6 +29,7 @@
     "test": "istanbul cover node_modules/mocha/bin/_mocha -- -t 16000 test/*-test.js"
   },
   "dependencies": {
+    "events": "^3.0.0",
     "html-entities": "^1.1.3",
     "stream-browserify": "^2.0.2",
     "url": "^0.11.0"
